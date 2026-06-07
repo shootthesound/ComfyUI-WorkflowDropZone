@@ -4,6 +4,9 @@ __pycache__/
 *.egg-info/
 .eggs/
 
+# comfy-cli publish artifact
+node.zip
+
 # Editor / OS
 .vscode/
 .idea/
