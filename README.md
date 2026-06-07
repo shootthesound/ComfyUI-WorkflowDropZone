@@ -1,8 +1,20 @@
-# ComfyUI-WorkflowDropZone
+<h1 align="center">ComfyUI-WorkflowDropZone</h1>
 
-A persistent drop zone in the lower-left corner of the ComfyUI canvas for loading
-workflows from images (PNG/WebP/etc.) or `.json` files. It's a reliable alternative
-to ComfyUI's built-in drag-and-drop, which can occasionally break.
+<p align="center">
+  A persistent drop zone for loading workflows from images or <code>.json</code> files —<br>
+  a reliable alternative to ComfyUI's built-in drag-and-drop when it breaks.
+</p>
+
+<p align="center">
+  <a href="https://buymeacoffee.com/lorasandlenses"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>
+</p>
+
+---
+
+A persistent drop zone in the corner of the ComfyUI canvas for loading workflows from
+images (PNG/WebP/etc.) or `.json` files. It's a reliable alternative to ComfyUI's
+built-in drag-and-drop, which can occasionally break — plus crash-recovery snapshots,
+recents, favorites, paste, and append.
 
 ## Controls
 
@@ -77,10 +89,18 @@ registers a ComfyUI extension that:
 
 ## Installation
 
-Clone or copy this folder into your ComfyUI `custom_nodes` directory:
+**ComfyUI Manager:** search for **WorkflowDropZone** and install.
+
+**Manual:** clone or copy this folder into your ComfyUI `custom_nodes` directory:
 
 ```
 ComfyUI/custom_nodes/ComfyUI-WorkflowDropZone
 ```
 
 Then restart ComfyUI and hard-refresh the browser.
+
+## Support
+
+If this saves you some broken drag-and-drops, consider supporting development:
+
+<a href="https://buymeacoffee.com/lorasandlenses"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>

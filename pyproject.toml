@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-workflowdropzone"
+description = "A persistent drop zone for loading workflows from images or .json files — a reliable alternative to ComfyUI's built-in drag-and-drop, with crash-recovery snapshots, recents, favorites, paste, and append."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/shootthesound/ComfyUI-WorkflowDropZone"
+"Bug Tracker" = "https://github.com/shootthesound/ComfyUI-WorkflowDropZone/issues"
+
+[tool.comfy]
+PublisherId = "shootthesound"
+DisplayName = "ComfyUI-WorkflowDropZone"
+Icon = ""
