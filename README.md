@@ -4,6 +4,18 @@ A persistent drop zone in the lower-left corner of the ComfyUI canvas for loadin
 workflows from images (PNG/WebP/etc.) or `.json` files. It's a reliable alternative
 to ComfyUI's built-in drag-and-drop, which can occasionally break.
 
+## Controls
+
+| Action | What it does |
+| --- | --- |
+| **Drop** image / `.json` / URL | Load the workflow (replaces the canvas) |
+| **Click** | Open a file picker |
+| **Shift / Alt + drop** | Append the workflow into the current canvas |
+| **Ctrl / Cmd + V** | Load a clipboard image-with-metadata or workflow JSON |
+| **Right-click** | Open the menu (Favorites · Recent · Restore) |
+| **Click-hold + drag** | Move the zone (position is remembered) |
+| **☆ / ★** in menu | Pin / unpin a workflow as a favorite |
+
 ## Features
 
 - Always-visible drop target (fades to low opacity when idle).
@@ -16,7 +28,7 @@ to ComfyUI's built-in drag-and-drop, which can occasionally break.
 - **Right-click** opens a popover with:
   - **Favorites** — pinned workflows (star any Recent entry to pin it).
   - **Recent** — the last 10 workflows you loaded, click to reload.
-  - **Restore session** — automatic crash-recovery snapshots of your canvas.
+  - **Restore** — automatic crash-recovery snapshots of your canvas (per workflow).
 - Visual feedback: hover highlight, green check on success, red cross on failure.
 - Highlights itself whenever a file is dragged anywhere over the window.
 
